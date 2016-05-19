@@ -1119,7 +1119,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	/*background: url("../images/logo.png") no-repeat center;*/
 	background-size: 92px 15px;
 }
 
@@ -2595,5 +2595,20 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+
+/** 
+ * ===================================================================
+ * 18. origami - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+#origami {
+	height: 6.6rem;
+	width: 6.6rem;
+	float: none;
+	display: block;
+}
+
 
 /*# sourceMappingURL=main.css.map */
